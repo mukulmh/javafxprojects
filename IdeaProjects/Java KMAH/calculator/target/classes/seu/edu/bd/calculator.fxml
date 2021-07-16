@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="413.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seu.edu.bd.CalculatorController">
+   <children>
+      <Label prefHeight="26.0" prefWidth="291.0" text="Basic Calculator" textFill="#217783">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <GridPane layoutY="26.0" prefHeight="386.0" prefWidth="291.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="displayField" alignment="CENTER_RIGHT" prefHeight="69.0" prefWidth="218.0" GridPane.columnSpan="4">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </TextField>
+            <Button defaultButton="true" maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickDiv" prefHeight="40.0" prefWidth="40.0" text="/" textFill="#a65555" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button defaultButton="true" maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickMul" prefHeight="40.0" prefWidth="40.0" text="*" textFill="#a65555" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button defaultButton="true" maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickSub" prefHeight="40.0" prefWidth="40.0" text="-" textFill="#a65555" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button defaultButton="true" maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickAdd" prefHeight="40.0" prefWidth="40.0" text="+" textFill="#a65555" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickNine" prefHeight="40.0" prefWidth="40.0" text="9" textFill="#318781" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickSix" prefHeight="40.0" prefWidth="40.0" text="6" textFill="#318781" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickThree" prefHeight="40.0" prefWidth="40.0" text="3" textFill="#318781" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button defaultButton="true" maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickEqual" prefHeight="40.0" prefWidth="40.0" text="=" textFill="#a65555" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickEight" prefHeight="40.0" prefWidth="40.0" text="8" textFill="#318781" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickFive" prefHeight="40.0" prefWidth="40.0" text="5" textFill="#318781" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickTwo" prefHeight="40.0" prefWidth="40.0" text="2" textFill="#318781" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickZero" prefHeight="40.0" prefWidth="40.0" text="0" textFill="#318781" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickSeven" prefHeight="40.0" prefWidth="40.0" text="7" textFill="#318781" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickFour" prefHeight="40.0" prefWidth="40.0" text="4" textFill="#318781" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickOne" prefHeight="40.0" prefWidth="40.0" text="1" textFill="#318781" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button maxHeight="300.0" maxWidth="300.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#ClickPoint" prefHeight="40.0" prefWidth="40.0" text="." textFill="#318781" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#clickOpenBracket" prefHeight="63.0" prefWidth="88.0" text="(" textFill="#50b5ad" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#clickCloseBracket" prefHeight="71.0" prefWidth="103.0" text=")" textFill="#50b5ad" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#clear" prefHeight="65.0" prefWidth="146.0" text="Clear" textFill="#37867a" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="1.0" right="1.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Italic" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="-10.0" left="-10.0" right="-10.0" />
+   </padding>
+</AnchorPane>

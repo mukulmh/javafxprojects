@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="593c5227-96d3-4a02-8a8f-18e469adab48" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YJAHg8p70ayrMRZV4gP2sKI1if" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seu.edu.bd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mukul\IdeaProjects\calculator\calculator\src\main\resources\seu\edu\bd" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seu.edu.bd.App" />
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seu.edu.bd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="593c5227-96d3-4a02-8a8f-18e469adab48" name="Default Changelist" comment="" />
+      <created>1582650236193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582650236193</updated>
+      <workItem from="1582650241925" duration="2973000" />
+      <workItem from="1582688017362" duration="2333000" />
+      <workItem from="1583001860022" duration="5552000" />
+      <workItem from="1583069502639" duration="3281000" />
+      <workItem from="1583129169992" duration="3856000" />
+      <workItem from="1583167626878" duration="133000" />
+      <workItem from="1583771742758" duration="6813000" />
+      <workItem from="1584284198808" duration="1418000" />
+      <workItem from="1585314318285" duration="8359000" />
+      <workItem from="1602926574750" duration="1206000" />
+      <workItem from="1602953996953" duration="930000" />
+      <workItem from="1602959360930" duration="202000" />
+      <workItem from="1602990560670" duration="93000" />
+      <workItem from="1602996308163" duration="788000" />
+      <workItem from="1609391908038" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609391925845">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1609391925845" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1609391995336">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609391995336" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1609391995335">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609391995335" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1609391995335">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609391995335" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1609391995335">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609391995335" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1602997103250">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602997103250" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1602997103250">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1602997103250" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1602997103249">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1602997103249" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1602997103250">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1602997103250" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1602926582227">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1602926582227" />
+    <state x="65" y="70" key="new project wizard" timestamp="1602990675545">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="70" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1602990675545" />
+  </component>
+</project>

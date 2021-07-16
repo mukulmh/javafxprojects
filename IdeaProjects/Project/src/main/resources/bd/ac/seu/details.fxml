@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.ac.seu.detailsController">
+   <children>
+      <TableView layoutX="121.0" layoutY="64.0" prefHeight="272.0" prefWidth="358.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="SL" />
+            <TableColumn prefWidth="282.0" text="Logs" />
+        </columns>
+      </TableView>
+      <Button fx:id="okButton" defaultButton="true" layoutX="186.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleOkButton" prefHeight="25.0" prefWidth="49.0" text="OK">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="366.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleClearButton" text="Clear Logs">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

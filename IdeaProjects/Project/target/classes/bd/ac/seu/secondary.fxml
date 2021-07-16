@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.ac.seu.SecondaryController">
+    <children>
+        <Text fill="#436c8a" layoutX="133.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warehouse Management System" textAlignment="CENTER" wrappingWidth="343.9999965429306" AnchorPane.bottomAnchor="358.2373046875" AnchorPane.leftAnchor="133.0" AnchorPane.rightAnchor="123.0000034570694" AnchorPane.topAnchor="13.96728515625">
+            <font>
+                <Font name="Bell MT" size="25.0" />
+            </font>
+        </Text>
+      <GridPane hgap="5.0" layoutX="90.0" layoutY="64.0" prefHeight="307.0" prefWidth="430.0" vgap="5.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+                <MenuButton fx:id="menuButton" alignment="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Menu" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleLogoffButton" text="Log-off" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleSearchButton" text="Find Employe" />
+                        <MenuItem mnemonicParsing="false" text="About Us" />
+                    </items>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </MenuButton>
+                <Button fx:id="storeButton" mnemonicParsing="false" onAction="#switchToStore" prefHeight="80.0" prefWidth="140.0" text="Store Parts" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+                <Button fx:id="shipOutButton" mnemonicParsing="false" onAction="#switchToShipOut" prefHeight="80.0" prefWidth="140.0" text="Ship-out" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleViewPartsButton" prefHeight="80.0" prefWidth="140.0" text="View Parts" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="detailsButton" mnemonicParsing="false" onAction="#handleDetailsButton" prefHeight="80.0" prefWidth="140.0" text="Details Log" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+    </children>
+</AnchorPane>
